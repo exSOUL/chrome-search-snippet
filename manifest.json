@@ -2,16 +2,11 @@
   "manifest_version": 2,
 
   "name": "Search Snippet",
-  "description": "Google Search with String",
+  "description": "クリップボードの内容を改行ごとに予め設定していた文字をあわせて検索します。",
   "version": "0.0.1",
 
-  "icons": {
-    "16": "",
-    "48": "",
-    "128": ""
-  },
-
   "permissions": [
+    "storage",
     "clipboardRead",
     "tabs",
     "http://*/",
@@ -21,7 +16,6 @@
   "options_page": "options.html",
 
   "browser_action": {
-    "default_icon": "",
     "default_popup": "popup.html"
   }
 }
